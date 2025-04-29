@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu du Dé - Humain vs Ordinateur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="game-area">
+        
+        <h1>Jeu de tirage</h1>
+
+        <label id="tirage-humain">Votre tirage: -</label>
+        <label id="tirage-ordinateur">Tirage ordinateur: -</label>
+
+        <label id="score-humain">Votre score: 0</label>
+        <label id="score-ordinateur">Score ordinateur: 0</label>
+
+        <button onclick="jouer()">Tirer 🎲</button>
+    </div>
+
+
+    
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/npD2IkKm5FJ9NZgB/scene.splinecode"></spline-viewer>
+    <script type="module">
+        import '@splinetool/viewer';
+      
+        document.addEventListener('DOMContentLoaded', () => {
+          const viewer = document.querySelector('spline-viewer');
+      
+          // Accéder à la scène après son chargement
+          viewer.addEventListener('load', () => {
+            // Personnaliser des paramètres après chargement de la scène
+            viewer.camera.position.set(10, 10, 10);
+            viewer.camera.lookAt(0, 0, 0);
+          });
+        });
+      </script>
+    
+</body>
+</html>
+
