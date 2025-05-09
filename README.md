@@ -2,7 +2,7 @@
 
 A simple dice game where you play against the computer. First to 10 points wins!
 
-[▶️ Play here](https://rezouali-imane.github.io/jeu-tirage-tp-daweb-/)
+[▶️ Play here](jeu-de-tirage.netlify.app)
 
 ---
 
