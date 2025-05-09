@@ -2,7 +2,7 @@
 
 A simple dice game where you play against the computer. First to 10 points wins!
 
-[▶️ Play here](https://api.netlify.com/api/v1/badges/c01a604a-e2b2-429d-877f-46a81138a0c3/deploy-status)](https://app.netlify.com/sites/jeu-de-tirage/deploys)
+[▶️ Play here](https://jeu-de-tirage.netlify.app/)
 
 ---
 
